@@ -1,0 +1,9 @@
+# https://support.scrapinghub.com/support/solutions/articles/22000200387-deploying-python-3-spiders-to-scrapy-cloud
+projects:
+  default: 415238
+
+requirements:
+  file: requirements.txt
+  
+stacks:
+  default: scrapy:1.7-py3
