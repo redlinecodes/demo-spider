@@ -9,7 +9,7 @@ class DemoSpiderSpider(CrawlSpider):
     allowed_domains = ['motortrend.com']
     # start_urls = ['http://motortrend.com/']
 
-    user_agent = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36 (Acebot/0.1)'
+    user_agent = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36'
 
     def start_requests(self):
         yield scrapy.Request(url='https://www.motortrend.com/auto-news/', headers={
